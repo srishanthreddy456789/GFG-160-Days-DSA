@@ -1,23 +1,25 @@
 class GfG {
-    static int lisEndingAtIdx(int[] arr, int idx) {
-      
-        // Base case
-        if (idx == 0)
-            return 1;
+
+    
+    static int knapsackRec(int W, int[] val, int[] wt, int n) {
 
       
-        int mx = 1;
-        for (int prev = 0; prev < idx; prev++)
-            if (arr[prev] < arr[idx])
-                mx = Math.max(mx, lisEndingAtIdx(arr, prev) + 1);
-        return mx;
+        if (n == 0 || W == 0)
+            return 0;
+
+        int pick = 0;
+
+        
+        if (wt[n - 1] <= W)
+            pick = val[n - 1] + knapsackRec(W - wt[n - 1], val, wt, n - 1);
+        
+        
+        int notPick = knapsackRec(W, val, wt, n - 1);
+         
+        return Math.max(pick, notPick);
     }
 
-    static int lis(int[] arr) {
-        int n = arr.length;
-        int res = 1;
-        for (int idx = 1; idx < n; idx++)
-            res = Math.max(res, lisEndingAtIdx(arr, idx));
-        return res;
+    static int knapsack(int W, int[] val, int[] wt) {
+        int n = val.length;
+        return knapsackRec(W, val, wt, n);
     }
-
