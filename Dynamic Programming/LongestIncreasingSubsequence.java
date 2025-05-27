@@ -5,9 +5,7 @@ class GfG {
         if (idx == 0)
             return 1;
 
-        // Consider all elements on the left of i,
-        // recursively compute LISs ending with 
-        // them and consider the largest
+       
         int mx = 1;
         for (int prev = 0; prev < idx; prev++)
             if (arr[prev] < arr[idx])
