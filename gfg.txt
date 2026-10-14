@@ -8,3 +8,6 @@
 8: Convert String to LowerCase
 9: Reverse a String
 10: Given a String, count the number of consonants in it.
+11: Given an array in non-increasing order, an element is given X, find if that element is present in the array or not. print 1 if its present else print 0.
+12: Write a recursive function to reverse the elements of an array.
+13: Write a recursive function to rotate elements in an array to the right by 1 position.
