@@ -11,5 +11,3 @@
 11.46. Permutations
 12.78. Subsets
 13.22. Generate Parentheses
-14.
-15.
