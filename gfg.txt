@@ -1,2 +1,10 @@
 1.First n Fibonacci using DP
 2.Count Ways with 3 Moves
+3: Find the Maximum element in a given array of size N.
+4: Find the Product of all elements in a given array of size N.
+5: Find the Number of even elements in a given array of size N.
+6: Check Palindrome
+7: Lower case to upper case
+8: Convert String to LowerCase
+9: Reverse a String
+10: Given a String, count the number of consonants in it.
