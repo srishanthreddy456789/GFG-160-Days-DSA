@@ -5,3 +5,11 @@
 5.4079. Prime Subset Selection I
 6.4080. Design Bus Seat Booking System
 7.4081. Prime Subset Selection II
+8.390. Elimination Game
+9.40. Combination Sum II
+10.47. Permutations II
+11.46. Permutations
+12.78. Subsets
+13.22. Generate Parentheses
+14.
+15.
