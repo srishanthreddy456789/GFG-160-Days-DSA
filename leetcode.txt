@@ -1,1 +1,7 @@
-
+1.4075. Longest Resilient Subarray I
+2.4076. Longest Resilient Subarray II
+3.4077. Minimize Inversions in a Prefix Tree
+4.4078. Three Fibonacci Sum
+5.4079. Prime Subset Selection I
+6.4080. Design Bus Seat Booking System
+7.4081. Prime Subset Selection II
