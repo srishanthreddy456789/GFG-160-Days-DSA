@@ -1,2 +1,2 @@
 1.First n Fibonacci using DP
-
+2.Count Ways with 3 Moves
