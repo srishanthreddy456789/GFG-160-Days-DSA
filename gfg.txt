@@ -13,4 +13,11 @@
 13: Write a recursive function to rotate elements in an array to the right by 1 position.
 14.Coin Change (Count Ways)
 15.Distinct Permutations of String
-16.
+16.Given an array of size n, print all the sums possible from its subsequence.
+17: Subset Sums
+18: Given an array of size N, Print subset sum and corresponding to it, print the given subset also.
+19: ​​Subset with sum divisible by m
+20: Number of subsequences in a string divisible by n
+21: Permutations of a given string
+22.Ways to Sum N:
+
